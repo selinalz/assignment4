@@ -1,0 +1,40 @@
+
+.container{
+  padding: 5%;
+}
+
+.song-container{
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.song-container:hover{
+  border: 5px dashed black;
+  border-radius: 25px;
+}
+
+.song-title{
+  margin: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.song-artist{
+  margin: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.song-image{
+  margin: 5%;
+  width: 50%;
+  height: auto;
+  display: none;
+}
+
+.song-image.active{
+  display: block;
+}
